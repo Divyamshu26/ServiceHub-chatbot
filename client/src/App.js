@@ -17,7 +17,7 @@ function App() {
           <main className="main-content">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/:serviceUrl" element={<ServicePage />} />
+              <Route path="/:serviceUrl" element={<ServicePage />}/>
             </Routes>
           </main>
           
